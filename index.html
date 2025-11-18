@@ -54,33 +54,32 @@
             margin-bottom: 40px;
         }
 
-        .n {
-            background-color: rgb(188, 221, 255);
-            width: 90%;
-            border-radius: 15px;
-            display: flex;
-            gap: 25px;
-            padding: 25px;
-            align-items: flex-start;
-            justify-content: center;
-            margin: 0% auto;
-            margin-top: 10px;
-            
-        }
+         .n {
+             background-color: rgb(188, 221, 255);
+             width: 90%;
+             border-radius: 15px;
+              display: flex;
+             gap: 25px;
+              padding: 25px;
+              align-items: flex-start;
+              justify-content: flex-start; 
+              margin: 10px auto;
+              flex-wrap: wrap; 
+             }
 
         .n-img {
-            width: 300px;
-            height: auto;
+            width: 200px ;  
+            height: 300px; 
             border-radius: 10px;
             object-fit: cover;
-            max-width: 100%;
-            
+            flex-shrink: 0; 
         }
 
         .n-c {
             display: flex;
             flex-direction: column;
             gap: 15px;
+            flex: 1; 
         }
 
         .n-t {
@@ -88,6 +87,7 @@
             font-weight: bold;
             color: black;
             margin: 0;
+            font-size: 30px;
         }
 
         .n-sub {
@@ -96,6 +96,7 @@
             color: rgb(33, 33, 33);
             margin: 0;
         }
+        
 
     </style>
 
@@ -104,7 +105,7 @@
 <body>
 
     <div class="txt">
-        <h1 class="tx">انفورماتیک نیوز</h1>
+        <h1 class="tx">انفورماتیک اینتر نشنال</h1>
         <hr class="k">
         <span class="who" onclick="alert('به تو چه ')">ما کی هستیم؟</span>
         <span class="con" onclick="alert('sadoonarman@icloud.com')">ارتباط با ما</span>
@@ -120,7 +121,9 @@
     
 
         <div class="n">
-            <img src="" class="n-img">
+            <div class="im">
+            <img src="in.png" class="n-img">
+            </div>
 
             <div class="n-c">
 
@@ -131,7 +134,7 @@
                 </h2>
 
                 <p class="n-sub">
-                
+                .
                 </p>
 
             </div>
